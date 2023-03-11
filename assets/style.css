@@ -16,9 +16,12 @@
 
 /* header */
 
+header {
+	background-color: #3161E0;;
+}
+
 .navbar {
-	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+	height: 4rem;
 }
 
 .navbar .container {
@@ -33,9 +36,26 @@
 	align-items: center;
 }
 
-.navbar .container > *:hover {
-	background-color: brown;
-	cursor: pointer;
+.center-nav {
+	display: flex;
+}
+
+.center-nav li {
+	list-style: none;
+	padding: .5rem;
+}
+
+.center-nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.login a {
+	background-color: white;
+	text-decoration: none;
+	padding: .5rem;
+	border-radius: 1rem;
+	color: black;
 }
 
 .jumbo .content {
